@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Hat from '../public/images/Cowboy.png'
+import Hat from '../public/images/cowboy.png'
 import Dress from '../public/images/dress.png'
 import styles from "../styles/Asist.module.css"
 import Animate from "./Animate"
