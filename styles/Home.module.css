@@ -1,0 +1,76 @@
+.homeContain {
+  width: 100%;
+  max-width: 100vh;
+}
+
+.bg {
+  filter: brightness(85%);
+}
+
+.homeContainTitle {
+  width: 100vw;
+  height: 6em;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 5em;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.homeContainTitle h1 {
+  font-size: 4em;
+  line-height: 1em;
+  font-family: 'Sacramento', cursive;
+  padding-right: 0.3em;
+  padding-left: 0.3em;
+  text-align: center;
+  font-weight: 500;
+}
+
+.homeContainTitle h3 {
+  font-size: 1.3em;
+  letter-spacing: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.homeDate {
+  width: 100vw;
+  text-align: center;
+  letter-spacing: 3px;
+  position: absolute;
+  bottom: 10em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* iphone 8 */
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  
+	.homeContainTitle h1{
+    font-size: 3em;
+  }
+
+  .homeContainTitle h3{
+    font-size: 1em;
+  }
+
+  .homeDate {
+    bottom: 8.5em;
+  }
+}
+
+/* iphone X */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .homeContainTitle h1{
+    font-size: 3.2em;
+  }
+
+  .homeContainTitle h3{
+    font-size: 1.1em;
+  }
+
+  .homeDate {
+    bottom: 9em;
+  }
+}
